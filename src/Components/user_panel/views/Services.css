@@ -26,24 +26,25 @@ body{
   flex-wrap: wrap;
   gap: 30px;
 }
-.card-wrap{
+.customcard-wrap{
    margin: 10px;
   width: 220px;
   height: 350px;
   background: #fff;
   border-radius: 20px;
-  border: 5px solid #fff;
+  /* border: 5px solid #fff; */
   overflow: hidden;
   color: var(--color-text);
-  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
-              rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   cursor: pointer;
   transition: all .2s ease-in-out;
 }
-.card-wrap:hover{
-  transform: scale(1.1);
-}
-.card-header{
+ .customcard-wrap:hover{
+  /* transform: scale(1.1); */
+  /* border: #E100FF; */
+  } 
+
+.customcard-header{
   height: 200px;
   width: 100%;
   background: red;
@@ -54,31 +55,31 @@ body{
 }
 
 
-.card-header i{
+.customcard-header i{
   color: #fff;
   font-size: 72px;
 }
-.card-content{
+.customcard-content{
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 60%;
   margin: 0 auto;
 }
-.card-title{
+.customcard-title{
   text-align: center;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-size: 16px;
   margin-top: 10px;
   margin-bottom: 20px;
-  
+
 }
-.card-text{
+.customcard-text{
   text-align: center;
   font-size: 12px;
   margin-bottom: 20px;
 }
-.card-btn{
+.customcard-btn{
   border: none;
   border-radius: 100px;
   padding: 5px 30px;
@@ -86,20 +87,20 @@ body{
   margin-bottom: 15px;
   text-transform: uppercase;
 }
-.card-header.one{
-  background: linear-gradient(to bottom left, var(--card1-gradient-color1), var(--card1-gradient-color2));
+.customcard-header.one{
+  background: linear-gradient(to bottom left, var(--customcard1-gradient-color1), var(--customcard1-gradient-color2));
 }
-.card-header.two{
-  background: linear-gradient(to bottom left, var(--card2-gradient-color1), var(--card2-gradient-color2));
+.customcard-header.two{
+  background: linear-gradient(to bottom left, var(--customcard2-gradient-color1), var(--customcard2-gradient-color2));
 }
-.card-header.three{
-  background: linear-gradient(to bottom left, var(--card3-gradient-color1), var(--card3-gradient-color2));
+.customcard-header.three{
+  background: linear-gradient(to bottom left, var(--customcard3-gradient-color1), var(--card3-gradient-color2));
 }
 .card-header.four{
   background: linear-gradient(to bottom left, var(--card4-gradient-color1), var(--card4-gradient-color2));
 }
 
-.card-btn.four{
+.customcard-btn.four{
     width: 200px;
     height: 35px;
     cursor: pointer;

@@ -13,7 +13,6 @@ export function Service() {
     {
       img: "https://www.homesalon.in/uploads/category/1653328024.jpg",
       name: "Facial-Cleanup",
-      
       price: 400,
       discription:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis nulla reiciendis doloremque recusandae illum corrupti repellendus adipisci ducimus ipsum accusamus maxime cupiditate quisquam aspernatur tempore praesentium, amet illo. Rerum, quod?'
     },
@@ -73,16 +72,16 @@ export function Service() {
         return (
          
 
-            <div className="card-wrap">
-              <div className="card-header four">
-                <img src={k.img} className="card-header four" width="139px" height="139px" alt="" />
+            <div className="customcard-wrap">
+              <div className="customcard-header four">
+                <img src={k.img} className="customcard-header four" width="139px" height="139px" alt="" />
                 <i className="fab fa-js-square"></i>
               </div>
-              <div className="card-content">
-                <p className="card-title">{k.name}</p>
-                <p className="card-text">INR {k.price}</p>
+              <div className="customcard-content">
+                <p className="customcard-title">{k.name}</p>
+                <p className="customcard-text">INR {k.price}</p>
               
-                <a href="#"><button className="card-btn four">Book Now</button></a>
+                <a href="#"><button className="customcard-btn four">Book Now</button></a>
               </div>
             </div>
           
